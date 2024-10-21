@@ -45,7 +45,7 @@ Sirve para ver de forma detallada los elementos que se listaron previamente con 
 
 ![Imagen](seccion1/2execLs.png)
 
-![Imagen](seccion1/3ls-l.ong)
+![Imagen](seccion1/3ls-l.png)
 # COMPLETAR
 # COLOCAR UNA CAPTURA DE PANTALLA
 
