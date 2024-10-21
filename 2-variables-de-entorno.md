@@ -1,5 +1,8 @@
 # Variables de Entorno
 ### ¿Qué son las variables de entorno
+
+Variables de entorno: Es información que ocupa el sistema operativo para funcionar de forma adecuada, como direcciones con información que puede ser útil para el correcto funcionamiento del sistema. Cada sistema tiene su forma de gestionar estas variables de entorno y sirven para mantener configuraciones o información de forma personalizada, siendo posible la automatización de algunas tareas.
+
 # COMPLETAR
 
 ### Para crear un contenedor con variables de entorno?
@@ -8,20 +11,34 @@
 docker run -d --name <nombre contenedor> -e <nombre variable1>=<valor1> -e <nombre variable2>=<valor2>
 ```
 
+![Imagen](seccio2/1nginx4.png)
+
 ### Crear un contenedor a partir de la imagen de nginx:alpine con las siguientes variables de entorno: username y role. Para la variable de entorno rol asignar el valor admin.
 
 # COMPLETAR
 
+![Imagen](seccio2/2comp.png)
+
+![Imagen](seccio2/3env.png)
+
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR
+
+![Imagen](seccio2/4mysql.png)
 
 ### Crear un contenedor con mysql:8 , mapear todos los puertos
 # COMPLETAR
 
 ### ¿El contenedor se está ejecutando?
+
+No, el contenedor no se ejecutó y no aparecieron los puertos que se le asignaron, al ver los archivos a través del log, se muestra que es necesario establecer las variables de entorno adecuadas para el usuario y la contraseña. 
+No existen bases de datos dentro del contenedor, no obstante, al funcionar con comandos de mysql se pudo crear una base de datos dentro del contenedor. 
+
 # COMPLETAR
 
 ### Identificar el problema
 # COMPLETAR
+
+![Imagen](seccio2/5confir.png)
 
 ### Eliminar el contenedor creado con mysql:8 
 # COMPLETAR
@@ -43,7 +60,12 @@ Es necesario especificar la ruta absoluta del archivo si este se encuentra en un
 ### Crear un contenedor con mysql:8 , mapear todos los puertos y configurar las variables de entorno mediante un archivo
 # COMPLETAR
 
+![Imagen](seccio2/6base.png)
+
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR 
 
 ### ¿Qué bases de datos existen en el contenedor creado?
+
+Como tal solo se creó el contenedor, por lo que solamente tenemos el servidor sin una base de datos dentro de él
+
 # COMPLETAR
