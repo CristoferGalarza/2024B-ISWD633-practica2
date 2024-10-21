@@ -43,9 +43,9 @@ Sirve para ver de forma detallada los elementos que se listaron previamente con 
 
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
 
-![Imagen](seccion1/2execLs.PNG)
+![Imagen](seccion1/2execLs.png)
 
-![Imagen](seccion1/3ls-l.PNG)
+![Imagen](seccion1/3ls-l.ong)
 # COMPLETAR
 # COLOCAR UNA CAPTURA DE PANTALLA
 
@@ -77,13 +77,13 @@ Ejecutar
 echo "Hola mundo"
 ```
 
-![Imagen](seccion1/4itBash.PNG)
+![Imagen](seccion1/4itBash.png)
 Ejecutar
 ```
 whoami
 ```
 
-![Imagen](seccion1/5whoiam.PNG)
+![Imagen](seccion1/5whoiam.png)
 # COLOCAR UNA CAPTURA DE PANTALLA
 
 **Si se visualiza el mensaje command not found, considerar**
@@ -104,7 +104,7 @@ docker exec -it <nombre contenedor> <programa o comando>
 
 ### Ahora puedes acceder al contenedor de jenkins y obtener la contraseña ubicada en /var/jenkins_home/secrets/initialAdminPassword
 
-![Imagen](seccion1/6Pass.PNG)
+![Imagen](seccion1/6Pass.png)
 
 # COMPLETAR
 
@@ -120,9 +120,9 @@ docker logs -n <cantidad de líneas> <nombre o id del contenedor>
 ```
 -t: para incluir la fecha y la hora
 
-![Imagen](seccion1/7install.PNG)
+![Imagen](seccion1/7install.png)
 
-![Imagen](seccion1/8nologs.PNG)
+![Imagen](seccion1/8nologs.png)
 
 
 
