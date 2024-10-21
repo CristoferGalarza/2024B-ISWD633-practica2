@@ -15,6 +15,8 @@ docker run -P -d --name <nombre contenedor> <nombre imagen>:<tag>
 No puedes mapear puertos a un contenedor existente directamente después de su creación con Docker. El mapeo de puertos debe especificarse en el momento de crear y ejecutar el contenedor.
 
 ### Crear contenedor de Jenkins puertos contenedor: 8080 (interface web) y 50000 (comunicación entre nodos) imagen: jenkins/jenkins:alpine3.18-jdk11
+
+![Imagen](seccion1/1puerto8080.PNG)
 # COMPLETAR
 
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
@@ -32,8 +34,18 @@ docker exec <nombre contenedor> <comando> <argumentos opcionales>
 ```
 # COMPLETAR
 ### ¿Para qué se usa el comando ls?
+
+Sirve para listar los archivos que se encuentran dentro del contenedor al que se le aplica el comando. Sirve para poder explorar el sistema de archivos del contenedor.
+
 ### ¿Para qué sirve el argumento -l junto al comando ls?
+
+Sirve para ver de forma detallada los elementos que se listaron previamente con el comando ls. Inicialmente ls solo muestra el nombre de los archivos relacionados al Docker, con el modificador -l se muestra la información adicional sobre estos elementos listados. 
+
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
+
+![Imagen](seccion1/2execLs.PNG)
+
+![Imagen](seccion1/3ls-l.PNG)
 # COMPLETAR
 # COLOCAR UNA CAPTURA DE PANTALLA
 
@@ -65,10 +77,13 @@ Ejecutar
 echo "Hola mundo"
 ```
 
+![Imagen](seccion1/4itBash.PNG)
 Ejecutar
 ```
 whoami
 ```
+
+![Imagen](seccion1/5whoiam.PNG)
 # COLOCAR UNA CAPTURA DE PANTALLA
 
 **Si se visualiza el mensaje command not found, considerar**
@@ -89,6 +104,8 @@ docker exec -it <nombre contenedor> <programa o comando>
 
 ### Ahora puedes acceder al contenedor de jenkins y obtener la contraseña ubicada en /var/jenkins_home/secrets/initialAdminPassword
 
+![Imagen](seccion1/6Pass.PNG)
+
 # COMPLETAR
 
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
@@ -103,6 +120,9 @@ docker logs -n <cantidad de líneas> <nombre o id del contenedor>
 ```
 -t: para incluir la fecha y la hora
 
+![Imagen](seccion1/7install.PNG)
+
+![Imagen](seccion1/8nologs.PNG)
 
 
 
