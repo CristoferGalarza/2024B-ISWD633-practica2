@@ -11,19 +11,19 @@ Variables de entorno: Es información que ocupa el sistema operativo para funcio
 docker run -d --name <nombre contenedor> -e <nombre variable1>=<valor1> -e <nombre variable2>=<valor2>
 ```
 
-![Imagen](seccio2/1nginx4.png)
+![Imagen](seccion2/1nginx4.png)
 
 ### Crear un contenedor a partir de la imagen de nginx:alpine con las siguientes variables de entorno: username y role. Para la variable de entorno rol asignar el valor admin.
 
 # COMPLETAR
 
-![Imagen](seccio2/2comp.png)
+![Imagen](seccion2/2comp.png)
 
-![Imagen](seccio2/3env.png)
+![Imagen](seccion2/3env.png)
 
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR
 
-![Imagen](seccio2/4mysql.png)
+![Imagen](seccion2/4mysql.png)
 
 ### Crear un contenedor con mysql:8 , mapear todos los puertos
 # COMPLETAR
@@ -38,7 +38,7 @@ No existen bases de datos dentro del contenedor, no obstante, al funcionar con c
 ### Identificar el problema
 # COMPLETAR
 
-![Imagen](seccio2/5confir.png)
+![Imagen](seccion2/5confir.png)
 
 ### Eliminar el contenedor creado con mysql:8 
 # COMPLETAR
@@ -60,7 +60,7 @@ Es necesario especificar la ruta absoluta del archivo si este se encuentra en un
 ### Crear un contenedor con mysql:8 , mapear todos los puertos y configurar las variables de entorno mediante un archivo
 # COMPLETAR
 
-![Imagen](seccio2/6base.png)
+![Imagen](seccion2/6base.png)
 
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR 
 
